@@ -10,7 +10,8 @@ void computeSum() {
     cout << "Continuously provide positive numbers. Enter '-1' to quit: ";
     // TO DO #1: What are some options for our condition
     // Note that we haven't collected user input yet
-    while (/* TO DO*/) {
+    while (input != -1) {
+        cin >> input;
         if(input == -1) {
             // TO DO #2: What is one way we can exit a loop?
         }
